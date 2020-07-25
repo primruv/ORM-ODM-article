@@ -1,0 +1,5 @@
+const express = require('express')
+const app = express()
+const mongoose = require('./db/mongoose')
+const hospitalWard = require('./db/models/hospitalWard')
+app.listen(3000, () => console.log("Listening on port 3000"))
